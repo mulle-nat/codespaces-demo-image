@@ -42,6 +42,7 @@ ENV SDE_PROJECTS    mulle-test
 RUN DEBIAN_FRONTEND=noninteractive \
       apt-get update \
    && apt-get -y install cmake curl git ninja-build build-essential uuid-runtime bsdmainutils wget \
+                         libncursesw6 libsource-highlight4v5 \
 \
    && wget "https://raw.githubusercontent.com/mulle-sde/mulle-sde/prerelease/bin/installer-all" \
    && chmod 755 installer-all \
@@ -49,3 +50,5 @@ RUN DEBIAN_FRONTEND=noninteractive \
 \
    && wget "https://github.com/mulle-cc/mulle-clang-project/releases/download/13.0.0.1/mulle-clang-13.0.0.1-bullseye-amd64.deb"  \
    && dpkg --install "mulle-clang-13.0.0.1-bullseye-amd64.deb"
+   && wget "https://github.com/mulle-cc/mulle-gdb/releases/download/11.1.0.0/mulle-gdb_11.1.0-1_bullseye_amd64.deb"  \
+   && dpkg --install "mulle-gdb_11.1.0-1_bullseye_amd64.deb"
