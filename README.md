@@ -7,15 +7,16 @@ In that codespace there will be a [mulle-objc](//mulle-objc.github.io/)
 project of a simple executable. The codespace will contain:
 
 * [mulle-sde](//github.com/mulle-sde)
-* [mulle-clang](//github.com/mulle-clang)
-* [mulle-gdb](//github.com/mulle-gdb)
+* [mulle-clang](//github.com/mulle-cc/mulle-clang)
+* [mulle-gdb](//github.com/mulle-cc/mulle-gdb)
 * [MulleFoundation](//github.com/MulleFoundation)
 
 ## How To
 
 ### Create The Codespace
 
-If you have Codespaces enabled on Github, you should see the "Create Codespaces on master" button. 
+If you have [codespaces](https://github.com/features/codespaces) enabled on github, you should see the 
+"Create codespace on master" button (see pic). If you don't have codespaces, you can apply for a [beta membership](https://github.com/features/codespaces/signup) as an individual.
 
 ![grafik](https://user-images.githubusercontent.com/1381995/168690653-b98b5971-251a-4bf8-aad4-b5da8a034acb.png)
 
