@@ -56,3 +56,5 @@ RUN DEBIAN_FRONTEND=noninteractive \
    
 RUN wget "https://github.com/mulle-cc/mulle-gdb/releases/download/11.1.0.0/mulle-gdb_11.1.0-1_bullseye_amd64.deb"  \
     && dpkg --install "mulle-gdb_11.1.0-1_bullseye_amd64.deb"
+    && ln -s /opt/mulle-gdb/11.1.0.1/bin/mulle-gdbserver /usr/bin
+    && ln -s /opt/mulle-gdb/11.1.0.1/bin/mulle-gdb /usr/bin
