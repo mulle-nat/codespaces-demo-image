@@ -1,16 +1,19 @@
 # codespaces-demo
 
-🎌 Codespace for developing an executable with foundation-developer
+🎌 Codespace for developing a mulle-objc executable 
 
-This project sets up a github codespace. In that codespace there is
-a mulle-objc project of a simple executable.
+This project sets up a github codespace with [foundation-developer](//github.com/MulleFoundation/foundation-developer). 
+In that codespace there will be a [mulle-objc](//mulle-objc.github.io/) 
+project of a simple executable. The codespace will contain:
 
-The project is build with [mulle-objc](//mulle-objc.github.io/) and the 
-[MulleFoundation](//github.com/MulleFoundation).
+* [mulle-sde](//github.com/mulle-sde)
+* [mulle-clang](//github.com/mulle-clang)
+* [mulle-gdb](//github.com/mulle-gdb)
+* [MulleFoundation](//github.com/MulleFoundation)
 
 ## How To
 
-### Create Codespace
+### Create The Codespace
 
 If you have Codespaces enabled on Github, you should see the "Create Codespaces on master" button. 
 
@@ -19,7 +22,7 @@ If you have Codespaces enabled on Github, you should see the "Create Codespaces 
 **Beware**, the preparation of the Codespace can take a few minutes. 
 Also check the github pricing, as Codespaces may encur costs (post-beta).
 
-### Debug Project
+### Debug The Project
 
 Once the container has been built, you will be in a Visual Studio Code environment, running in your 
 browser. You can now build and debug the project:
