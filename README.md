@@ -30,7 +30,7 @@ Instead of running the docker container remotely on github you can also run
 it locally on your computer. For that:
 
 1. install the "Remote - Containers" extension `ms-vscode-remote.remote-containers` in Visual Studio Code
-2. follow the installation instructions in that extensions README.md
+2. follow the installation instructions in that extensions [README.md](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 Then clone this repository to your computer and use "Remote-Containers: Open Folder in Container..."
 
