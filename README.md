@@ -31,4 +31,6 @@ browser. You can now build and debug the project:
 
 ![grafik](debugger.png)
 
-
+> #### Note
+> 
+> You may need to turn on the `debug.allowBreakpointsEverywhere` setting in Visual Studio Code.
