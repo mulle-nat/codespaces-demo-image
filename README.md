@@ -11,9 +11,10 @@ project of a simple executable. The codespace will contain:
 * [mulle-gdb](//github.com/mulle-cc/mulle-gdb)
 * [MulleFoundation](//github.com/MulleFoundation)
 
-## How To
+This codespace demo uses a hosted image, instead of creating the docker container from scratch. A side effect of
+this is, that you can not use it locally with "Remote Containers".
 
-### Either Create The Codespace
+## How To Create The Codespace
 
 If you have [codespaces](https://github.com/features/codespaces) enabled on github, you should see the
 "Create codespace on master" button (see pic). If you don't have codespaces, you can apply for a [beta membership](https://github.com/features/codespaces/signup) as an individual or use the "Run locally" method.
@@ -22,18 +23,6 @@ If you have [codespaces](https://github.com/features/codespaces) enabled on gith
 
 **Beware**, the preparation of the Codespace can take a few minutes.
 Also check the github pricing, as Codespaces may encur costs (post-beta).
-
-
-### Or Run Container
-
-Instead of running the docker container remotely on github you can also run
-it locally on your computer. For that:
-
-1. install the "Remote - Containers" extension `ms-vscode-remote.remote-containers` in Visual Studio Code
-2. follow the installation instructions in that extensions [README.md](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-
-Then clone this repository to your computer and use "Remote-Containers: Open Folder in Container..."
-
 
 ### Debug The Project
 
